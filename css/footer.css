@@ -1,0 +1,13 @@
+body{background-color: #3c3c3c;color: #c2c2c2;}
+.my_span{color: orange;}
+.list-unstyled>li:nth-child(1){font-size: 14px;}
+.list-unstyled>li:first-child~li{font-size: 12px;line-height:20px;}
+.list-unstyled>li a{color: #c2c2c2;}
+
+@media (min-width:992px){
+    .my_db_img{
+        margin-left: 50px;
+    }
+}
+.my_hx{border-bottom: 1px solid #999;margin-top: 30px;}
+.my_db_a>a{color: #c2c2c2;font-size: 14px;}

@@ -1,0 +1,142 @@
+/* 超大背景图样式 */
+.banner_1{
+    background: url(../img/list/list_2/big_bg.jpeg);
+    height: 100%;width: 100%;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+.mt-10{margin-top: 100px;}
+
+/* 顶部导航栏样式 */
+.my_header_dhl{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+.my_tcw + .breadcrumb-item::before{
+    content: "/";
+}
+.breadcrumb-item>a:first-child{color: #333;}
+
+/* 顶部引入文件媒体查询  */
+@media (max-width:575.99px){
+    .my_header_1{height:33rem;}
+}
+@media (min-width:576px){
+    .my_header_1{height:33rem;}
+}
+@media (min-width:768px){
+    .my_header_1{height:20rem;}
+}
+@media (min-width:992px){
+    .my_header_1{height:10rem;border-bottom: 1px solid #c2c2c2 !important;}
+}
+@media (min-width:1200px){
+    .my_header_1{height:8rem;}
+}
+/* 顶部背景图标题 */
+.my_bt_1{
+    position: relative;
+    font-size: 30px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 200;
+}
+/* 名片 */
+.my_tx{border-radius: 50%;width: 50%;}
+.my_mt{margin-top: 50px;}
+.text_orange{color: orange;}
+.my_mp_border{
+border: 1px dashed #999;
+}
+.my_padding{padding-left: 33px;}
+
+/* 旅行a标签样式 */
+.my_a_1{color: #666;text-decoration: none;font-size: 15px;font-weight: 500; line-height: 35px;}
+.my_a_img_1{
+    font-size: 16px;color: #333;line-height: 26px;text-decoration: none;
+}
+.my_a_img_1:hover{color: orange;}
+.my_ul a{
+    margin-left: 5px;
+    color: #666;
+}
+.my_ul>li{
+    color: #666;
+    font-size: 0.8rem;
+}
+
+.border_orange{
+    width: 615px;height: 85px;
+    border: 1px solid orange;
+}
+
+.btn-orange {
+    width: 100px;
+    color: #fff;
+    background-color: orange;
+    border-color: rgb(255, 238, 0);
+}
+.btn-orange:hover {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+  }
+
+  /* 分页 */
+.page-item .page-link{
+    font: 12px "simhei", Arial, Helvetica, sans-serif;
+	background-color: transparent;
+	border-color: #ddd;
+	border-radius: 0.25rem;
+	padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: #fff;
+    color: #333;
+}
+.page-item+.page-item{
+	margin-left: 0.5rem;
+}
+.page-item .page-link:hover{
+	border-color: rgba(0,0,0,.3);
+}
+.page-item.disabled .page-link{
+	background-color: transparent;
+	border-color: #ccc;
+}
+@media (min-width:576px){
+    .my_footer_2{width: 100%;padding: 0;margin-top: 30px;}
+}
+@media (min-width:768px){
+    .my_footer_2{width: 100%;padding: 0;margin-top: 30px;}
+}
+@media (min-width:992px){
+    .my_footer_2{width: 100%;padding: 0;margin-top: 30px;}
+}
+@media (min-width:1200px){
+    .my_footer_2{width: 100%;padding: 0;margin-top: 30px;}
+}
+
+
+
+@media (min-width:1200px){
+    /* hove样式 */
+.d1:hover .my_d1_p{
+    transform:translatex(-250px) ;
+    display: block;
+    transition: 1s;
+}
+.my_d1_p{
+    color: white;
+    top: 90px;
+    right:-130px;
+    position: absolute;
+}
+}

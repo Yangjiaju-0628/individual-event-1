@@ -1,0 +1,132 @@
+.my_img_1{
+    width: 218px;height: 31px;
+}
+/* 旅行a标签样式 */
+.my_a_1{color: #333;text-decoration: none;font-size: 18px;font-weight: 900; line-height: 35px;}
+.my_a_2{color: #999;background-color: transparent;text-decoration: none;line-height: 35px;font-size: 12px;}
+/* 轮播图a标签和p标签样式 */
+.my_a_img_1{
+    font-size: 16px;color: #333;line-height: 26px;text-decoration: none;
+}
+.my_a_img_1:hover{color: orange;}
+.my_p{line-height: 20px;font-size: 13px;}
+/* 轮播图样式 */
+.carousel-indicators li{
+    width: 0.9rem;height: 0.6rem;
+    border-radius: 20%;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    background-color: #fff;
+}
+.carousel-indicators .active{
+    background-color: orange;
+}
+.carousel-control-next,.carousel-control-prev{
+    width: 4%;height: 20%;
+    background-color: #aaa;
+    border-radius: 0.25rem;
+    top: 30%;
+}
+.carousel-control-prev{left: 5px;}
+.carousel-control-next{right: 5px;}
+@media (max-width:575.99px){
+    .carousel-indicators>li{
+        bottom: 60px;
+    }
+}
+@media (min-width:576px){
+    .carousel-indicators>li{
+        bottom: 55px;
+    }
+}
+@media (min-width:768px){
+    .carousel-indicators>li{
+        bottom: 35px;
+    }
+}
+@media (min-width:992px){
+    .carousel-indicators>li{
+        bottom: 70px;
+    }
+}
+@media (min-width:1200px){
+    .carousel-indicators>li{
+        bottom: 55px;
+    }
+}
+
+.my_ul a{
+    margin-left: 5px;
+    color: #666;
+}
+.my_ul>li{
+    color: #666;
+    font-size: 0.8rem;
+}
+
+/* 右边顶部标签样式 */
+.my_remen{font-size: 18px;color: orange;}
+.my_fb{color: #333;font-size: 18px;}
+.my_remen:hover{
+    color: orange;
+    border-bottom: orange;
+}
+
+.btn-orange{
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+  }
+.btn-orange:hover{
+      color: #fff;
+      outline: 0;
+}
+.nav-tabs .nav-link {
+    border: 0;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+.dw_top{
+    color: #333;
+    font-weight: 800;
+}
+
+.dw_center{
+    margin-top: 20px;
+    font-size: 0.85rem;
+    flex-wrap: wrap;
+}
+
+.dw_size{
+      font-size: 1px;
+      margin-top: 10px;
+  }
+
+.list-group-item {
+    padding: 0;
+    border: 0;
+}
+
+
+/* 顶部引入文件媒体查询 */
+@media (max-width:575.99px){
+    .my_header{height:90rem;}
+}
+@media (min-width:576px){
+    .my_header{height:100rem;}
+}
+@media (min-width:768px){
+    .my_header{height:88rem;}
+}
+@media (min-width:992px){
+    .my_header{height:66rem;}
+}
+@media (min-width:1200px){
+    .my_header{height:73rem;}
+}
+
+.my_img_hv{transition: 1s;}
+.my_img_hv:hover{
+    transform: scale(1.1);
+}

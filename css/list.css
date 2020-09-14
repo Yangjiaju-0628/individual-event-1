@@ -1,0 +1,83 @@
+/* 顶部引入文件媒体查询  */
+@media (max-width:575.99px){
+    .my_header_1{height:33rem;}
+}
+@media (min-width:576px){
+    .my_header_1{height:33rem;}
+}
+@media (min-width:768px){
+    .my_header_1{height:20rem;}
+}
+@media (min-width:992px){
+    .my_header_1{height:10rem;border-bottom: 1px solid #c2c2c2 !important;}
+}
+@media (min-width:1200px){
+    .my_header_1{height:10rem;}
+}
+
+.banner{
+background: url(../img/list/list_1/bg_1.jpg);
+width: 100%;height: 100%;
+background-position: center 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size:cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+/* 顶部导航样式 */
+.my_header_dhl{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+/* 面包屑导航样式 */
+.breadcrumb-item + .breadcrumb-item::before{
+    content: ">";
+}
+.my_tcw + .breadcrumb-item::before{
+    content: "/";
+}
+.breadcrumb-item>a:first-child{color: #333;}
+.text_orange{color: orange !important;}
+
+/* 字体样式 */
+.my_span_size{color: #999;}
+/* 名片 */
+.my_tx{border-radius: 50%;margin-top: 10px;margin-bottom: 10px;}
+
+.font_small_center{font-size: 1.1rem;}
+
+.my_xft{
+    right: 10px;
+    top: 90px;
+    list-style: none;
+    position: fixed;
+    display: flex;
+}
+
+.border_orange{
+    width: 615px;height: 85px;
+    border: 1px solid orange;
+}
+
+.btn-orange {
+    width: 100px;
+    color: #fff;
+    background-color: orange;
+    border-color: rgb(255, 238, 0);
+}
+.btn-orange:hover {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+  }
+
+  @media (min-width:1200px){
+      .my_footer_1{width: 100%;padding: 0;}
+  }
